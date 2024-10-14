@@ -64,7 +64,7 @@ productsHTML +=`<div class="product-container">
 document.querySelector('.js-products-grid').innerHTML=productsHTML;
 
 
-}
+
 function updateCartQuantity(){
   let cartQuantity=0;
 
