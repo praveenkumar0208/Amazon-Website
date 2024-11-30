@@ -1,3 +1,14 @@
+export function getProduct(productId) {
+  let matchingProduct;
+
+  products.forEach((product) => {
+    if (product.id === productId) {
+      matchingProduct = product;
+    }
+  });
+
+  return matchingProduct;
+}
 
 export const products = [
   {
@@ -5,7 +16,7 @@ export const products = [
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
     name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
     rating: {
-      stars: 4,
+      stars: 4.5,
       count: 87
     },
     priceCents: 1090,
