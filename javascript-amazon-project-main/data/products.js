@@ -111,11 +111,11 @@ export function loadProductsFetch() {
 
   return promise;
 }
-/*
+
 loadProductsFetch().then(() => {
   console.log('next step');
 });
-*/
+
 
 export function loadProducts(fun) {
   const xhr = new XMLHttpRequest();
